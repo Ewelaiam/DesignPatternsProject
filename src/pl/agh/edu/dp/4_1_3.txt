@@ -1,0 +1,14 @@
+Został zmieniony sposób tworzenia labiryntu. Wcześniej użytkownik musiał szczegółowo znać działanie programu,
+aby móc odopowiedniostworzyć wszystkie potrzebne elementy. Obecnie kod zdecydowanie zyskał na czytelności.
+Wystarczy znać składowe MazeBuildera, gdzie nazwy dość jasno wskazują swoje przeznaczenie.
+Dodatkowo bardziej intuicyjne jest, jakie argumenty należy przekazać do metod, niż jakby to było
+w przypadku konstruktora - np. z wieloma parametrami. O wiele łatwiej jest śledzić poszczególne kroki tworzenia labiryntu,
+a co za tym idzie, uniknąć błędów. Kolejna korzyść to możliwość wielokrotnego użycia kodu - w tym przypadku
+m.in. do budowy różnych typów labiryntów (bez konieczności tworzenia mnóstwa klas dziedziczących dla klasy bazowej).
+Przenosząc odpowiedzialność tworzenia na interfejs MazeBuilder, spełniona zostaje zasada pojedynczej odpowiedzialności (S w SOLID).
+
+
+
+
+
+
